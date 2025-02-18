@@ -1,11 +1,12 @@
 import readlineSync from 'readline-sync';
-function isEven(number) {
+const isEven = (number) => {
     return number % 2 === 0;
 }
 
-function playGame() {
+const playGame = () => {
     console.log("brain-even");
-    const name = readlineSync.question("Welcome to the Brain Games!\nMay I have your name?");
+    console.log("Welcome to the Brain Games!")
+    const name = readlineSync.question("May I have your name?");
     console.log(`Hello, ${name}!`);
     console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
@@ -31,7 +32,7 @@ function playGame() {
             return;
         }
     }
-    
+
     console.log(`Congratulations, ${name}!`);
 }
 export default playGame;
