@@ -23,10 +23,9 @@ const playGame = () => {
             return;
         }
 
-        if (userAnswer === correctAnswer) {
-            console.log("Correct!");
-            correctAnswers++;
-        }
+        console.log("Correct!");
+        correctAnswers++;
+
     }
     console.log(`Congratulations, ${name}!`);
 }
