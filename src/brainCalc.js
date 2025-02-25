@@ -26,8 +26,7 @@ const brainCalc = () => {
     console.log(`Hello, ${name}!`);
     console.log('What is the result of the expression?');
 
-    let correctAnswers = 0;
-    for (let i = 0; correctAnswers < 3; i++) {
+    for (let correctAnswers = 0; correctAnswers < 3; correctAnswers++) {
 
         const num1 = getRandomNum(1, 50);
         const num2 = getRandomNum(1, 50);
