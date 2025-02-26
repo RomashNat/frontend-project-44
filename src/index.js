@@ -4,7 +4,7 @@ const getRandomNum = (min, max) => {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-const playTemplateGame = (rules, getGeneration, isCheck) => {
+const playTemplateGame = (rules, getGeneration) => {
     console.log('Welcome to the Brain Games!');
     const name = readlineSync.question('May I have your name? ');
     console.log(`Hello, ${name}!`);
@@ -15,7 +15,7 @@ const playTemplateGame = (rules, getGeneration, isCheck) => {
         console.log(question);
         const userAnswer = readlineSync.question('Your answer: ');
 
-        if (parseInt(userAnswer) !== correctAnswer) {
+        if (userAnswer !== correctAnswer) {
             console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
             console.log(`Let's try again, ${name}!`);
             return;
