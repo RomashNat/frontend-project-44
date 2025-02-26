@@ -21,7 +21,7 @@ const getGeneration = () => {
     const num1 = getRandomNum(1, 20);
     const num2 = getRandomNum(1, 20);
     const operation = getOperation();
-    const correctAnswer = calculateResult(num1, num2, operation);
+    const correctAnswer = String(calculateResult(num1, num2, operation));
     const question = `Question: ${num1} ${operation} ${num2}`;
     return [correctAnswer, question];
 }
