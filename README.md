@@ -3,5 +3,6 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/RomashNat/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/RomashNat/frontend-project-44/actions)
 ### Add recording of "Brain-even" game:
-
 [![asciicast](https://asciinema.org/a/WC62Q5s9PhOyBXqvRJ7YmpNjw.svg)](https://asciinema.org/a/WC62Q5s9PhOyBXqvRJ7YmpNjw)
+### Add recording of "Brain-calc" game:
+[![asciicast](https://asciinema.org/a/aOn3wTEXBOaFr67HTTfC7AOdV.svg)](https://asciinema.org/a/aOn3wTEXBOaFr67HTTfC7AOdV)
