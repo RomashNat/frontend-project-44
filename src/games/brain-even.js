@@ -1,4 +1,4 @@
-// import readlineSync from 'readline-sync';
+
 import { getRandomNum, playTemplateGame } from '../index.js';
 
 const isEven = (number) => {
@@ -17,4 +17,5 @@ const playGame = () => {
     playTemplateGame(rules, getGeneration);
 
 }
+
 export default playGame;
