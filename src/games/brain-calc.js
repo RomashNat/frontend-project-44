@@ -24,6 +24,7 @@ const getGeneration = () => {
     const question = `Question: ${num1} ${operation} ${num2}`;
     return [correctAnswer, question];
 }
+
 const brainCalc = () => {
     const rules = 'What is the result of the expression?';
     playTemplateGame(rules, getGeneration);
