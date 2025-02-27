@@ -1,5 +1,4 @@
-// import readlineSync from 'readline-sync';
-import { getRandomNum, playTemplateGame} from '../index.js';
+import { getRandomNum, playTemplateGame } from '../index.js';
 
 const getOperation = () => {
     const operations = ['+', '-', '*'];
@@ -27,8 +26,7 @@ const getGeneration = () => {
 }
 const brainCalc = () => {
     const rules = 'What is the result of the expression?';
-    playTemplateGame(rules, getGeneration); 
+    playTemplateGame(rules, getGeneration);
 }
-
 
 export default brainCalc;
