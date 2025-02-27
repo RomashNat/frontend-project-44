@@ -1,4 +1,3 @@
-
 import { getRandomNum, playTemplateGame } from '../index.js';
 
 const isEven = (number) => {
