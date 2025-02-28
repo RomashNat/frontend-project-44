@@ -6,3 +6,5 @@
 [![asciicast](https://asciinema.org/a/WC62Q5s9PhOyBXqvRJ7YmpNjw.svg)](https://asciinema.org/a/WC62Q5s9PhOyBXqvRJ7YmpNjw)
 ### Add recording of "Brain-calc" game:
 [![asciicast](https://asciinema.org/a/aOn3wTEXBOaFr67HTTfC7AOdV.svg)](https://asciinema.org/a/aOn3wTEXBOaFr67HTTfC7AOdV)
+### Add recording of "Brain-gcd" game:
+[![asciicast](https://asciinema.org/a/yv3zc0g6aY8PbS3eL30PEwI0p.svg)](https://asciinema.org/a/yv3zc0g6aY8PbS3eL30PEwI0p)
