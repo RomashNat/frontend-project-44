@@ -11,8 +11,8 @@ const gcdResult = (num1, num2) => {
 }
 
 const getGeneration = () => {
-    const num1 = getRandomNum(1, 50);
-    const num2 = getRandomNum(1, 50);
+    const num1 = getRandomNum(1, 100);
+    const num2 = getRandomNum(1, 100);
     const correctAnswer = String(gcdResult(num1, num2));
     const question = `Question: ${num1} ${num2}`;
     return [correctAnswer, question];
