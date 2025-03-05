@@ -10,3 +10,4 @@
 [![asciicast](https://asciinema.org/a/yv3zc0g6aY8PbS3eL30PEwI0p.svg)](https://asciinema.org/a/yv3zc0g6aY8PbS3eL30PEwI0p)
 ### Add recording of "Brain-progression" game:
 [![asciicast](https://asciinema.org/a/nP4uLacgcR5YIhH7BAR7BeOna.svg)](https://asciinema.org/a/nP4uLacgcR5YIhH7BAR7BeOna)
+### Add recording of "Brain-prime" game:
