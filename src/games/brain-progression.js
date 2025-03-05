@@ -12,7 +12,7 @@ const createProgression = (first, step, lengthProg) => {
 const hideIndex = (progression, index) => {
     const progress = [...progression];
     progress[index] = '..';
-    return progress;
+    return progress.join(' ');
 }
 
 const getGeneration = () => {
