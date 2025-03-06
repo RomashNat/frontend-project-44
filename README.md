@@ -10,6 +10,45 @@ Brain Games is a set of five console games. Each game asks questions that need t
 - Progression: search for missing numbers in a sequence of numbers.
 - Prime: determination if the number is prime.
 
+### Installation:
+
+To install npm-package use command:
+
+```sh
+$ npm init @hexlet/code
+```
+
+### Play game:
+
+-Even:
+
+```sh
+$ node bin/brain-even.js
+```
+
+-Calculator:
+
+```sh
+$ node bin/brain-calc.js
+```
+-GCD:
+
+```sh
+$ node bin/brain-gcd.js
+```
+
+-Progression:
+
+```sh
+$ node bin/brain-progression.js
+```
+
+-Prime:
+
+```sh
+$ node bin/brain-prime.js
+```
+
 ### Code climate
 [![Maintainability](https://api.codeclimate.com/v1/badges/7ed748b432399fc7a473/maintainability)](https://codeclimate.com/github/RomashNat/frontend-project-44/maintainability)
 ### Hexlet tests and linter status:
