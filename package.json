@@ -2,12 +2,10 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "5 console math games, each game has 3 rounds, and in case of an incorrect answer, the game ends.",
-  "main": "index.js",
   "author": "Natalia",
   "license": "ISC",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ."
   },
   
@@ -24,8 +22,6 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.20.0",
-    "eslint-plugin-react": "^7.37.4",
-    "eslint-plugin-vue": "^9.32.0",
     "eslint": "^8.57.1",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-jsx-a11y": "^6.10.2",

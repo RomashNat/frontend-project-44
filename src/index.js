@@ -1,5 +1,7 @@
 import readlineSync from 'readline-sync';
 
+export const rounds = 3;
+
 const getRandomNum = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
 const playTemplateGame = (rules, getGeneration) => {
@@ -8,7 +10,7 @@ const playTemplateGame = (rules, getGeneration) => {
   console.log(`Hello, ${name}!`);
   console.log(rules);
 
-  for (let correctAnswers = 0; correctAnswers < 3; correctAnswers += 1) {
+  for (let correctAnswers = 0; correctAnswers < rounds; correctAnswers += 1) {
     const [correctAnswer, question] = getGeneration();
     console.log(question);
     const userAnswer = readlineSync.question('Your answer: ');
