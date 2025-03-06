@@ -1,3 +1,15 @@
+### Project description:
+
+Brain Games is a set of five console games. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered completed. Incorrect answers end the game and offer to complete it again.
+
+### Games of project:
+
+- Even: determination if the number is even.
+- Calculator: arithmetic expressions that need to be calculated.
+- GCD: determination of the greatest common divisor.
+- Progression: search for missing numbers in a sequence of numbers.
+- Prime: determination if the number is prime.
+
 ### Code climate
 [![Maintainability](https://api.codeclimate.com/v1/badges/7ed748b432399fc7a473/maintainability)](https://codeclimate.com/github/RomashNat/frontend-project-44/maintainability)
 ### Hexlet tests and linter status:
