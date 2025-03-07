@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-export const rounds = 3;
+const rounds = 3;
 
 const getRandomNum = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
